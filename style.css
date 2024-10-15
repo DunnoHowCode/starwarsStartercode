@@ -15,21 +15,54 @@ img {
 
 /* phone */
 body {
-  background-color: #e4e7ec;
+  background-color: #3a17b9;
+  color:yellow
+}
+
+a {
+  color: yellow;
 }
 
 
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
 
 h1 {
   font-family: "SF Distant Galaxy";
+  display: flex;
+  justify-content: center;
 }
 
-
+.top, .mid, .bottom {
+  display: flex;
+  flex-direction: column;
+}
 
 /* computer */
 @media screen and (min-width: 600px) {
 
-
-
+  .bottom {
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .mid {
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .top {
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .links {
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 
