@@ -42,6 +42,10 @@ h1 {
   flex-direction: column;
 }
 
+a:hover {
+  color: white;
+}
+
 /* computer */
 @media screen and (min-width: 600px) {
 
